@@ -17,9 +17,9 @@ More to come...
 
 [Download CircuitPython for Pico](https://circuitpython.org/board/raspberry_pi_pico/)
 
-[How to setup CircuitPython?](https://github.com/CytronTechnologies/MAKER-PI-RP2040/setup-circuitpython.md)
+[How to setup CircuitPython?](https://github.com/CytronTechnologies/MAKER-PI-RP2040/blob/main/setup-circuitpython.md)
 
-[How to setup MicroPython?](https://github.com/CytronTechnologies/MAKER-PI-RP2040/setup-micropython.md)
+[How to setup MicroPython?](https://github.com/CytronTechnologies/MAKER-PI-RP2040/blob/main/setup-micropython.md)
 
 
 
