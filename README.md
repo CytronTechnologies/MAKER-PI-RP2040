@@ -1,6 +1,6 @@
 # CYTRON MAKER PI RP2040
 Simplifying Robotics with Raspberry Pi RP2040
-
+![Maker Pi RP2040](/icon.png)
 
 More to come...
 
