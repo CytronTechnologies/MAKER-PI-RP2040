@@ -1,7 +1,10 @@
 # CYTRON MAKER PI RP2040
-###### Simplifying Robotics with Raspberry Pi RP2040
+Simplifying Robotics with Raspberry Pi RP2040
+
 
 More to come...
+
+
 
 
 ##### Reference:
@@ -22,4 +25,4 @@ More to come...
 
 ##### Purchase:
 
-[Cytron](https://www.cytron.io/p-maker-pi-rp2040)
+* [Cytron](https://www.cytron.io/p-maker-pi-rp2040)
