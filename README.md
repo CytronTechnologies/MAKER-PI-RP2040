@@ -2,12 +2,9 @@
 Simplifying Robotics with Raspberry Pi RP2040
 ![Maker Pi RP2040](/icon.png)
 
-More to come...
-
-
-
-
 ##### Reference:
+
+[Maker Pi RP2040 Product Page](https://www.cytron.io/p-maker-pi-rp2040)
 
 [Maker Pi RP2040 Datasheet](https://docs.google.com/document/d/1DJASwxgbattM37V4AIlJVR4pxukq0up25LppA8-z_AY/edit?usp=sharing)
 
