@@ -5,14 +5,14 @@
 
 ## Out-of-the-box Experience
 CircuitPython firmware and a demo program are preloaded on the Maker Pi RP2040 by default. Power up your board with a USB Micro B cable (or via LIPO / VIN) to try out.
-- Upon powered up / startup:
+- **On startup**:
    - play a melody tune
    - perform a sequential LED lighting (blue LEDs)
-- Press GP20 push button:
+- **Press GP20 push button**:
    - light up all blue LEDs
    - run DC Motor 1 forward and DC Motor 2 backward, both at 50% speed
    - move all Servo motors to 0 degree
-- Press GP21 push button: 
+- **Press GP21 push button**: 
    - turn off all blue LEDs
    - stop both DC Motor 1 & 2
    - move all Servo motors to 180 degree
