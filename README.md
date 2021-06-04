@@ -4,7 +4,7 @@
 ![Maker Pi RP2040](/maker-pi-rp2040-tagline.png)
 
 ## Out-of-the-box Experience
-CircuitPython firmware and a demo program are preloaded on the Maker Pi RP2040 by default. Power up your board with a USB Micro B cable (or via LIPO / VIN) to try out.
+CircuitPython firmware and a [demo program](/Examples/CircuitPython/Out-of-the-box%20Demo%20Code/code.py) are preloaded on the Maker Pi RP2040 by default. Power up your board with a USB Micro B cable (or via LIPO / VIN) to try out.
 - **On startup**:
    - play a melody tune
    - perform a sequential LED lighting (blue LEDs)
@@ -26,10 +26,20 @@ We provide some [example code](/Examples) in CircuitPython and MicroPython for y
 We've created the [CircuitPython .UF2 firmware for Maker Pi RP2040](https://circuitpython.org/board/cytron_maker_pi_rp2040/) with helps from the awesome folks at CircuitPython and Adafruit. It includes the libraries to work with Maker Pi RP2040's built-in features, eg. DC & servo motors control and Neopixel LEDs. The [adafruit_motor](https://github.com/adafruit/Adafruit_CircuitPython_Motor), [neopixel](https://github.com/adafruit/Adafruit_CircuitPython_NeoPixel) and [simpleio](https://github.com/adafruit/Adafruit_CircuitPython_SimpleIO) libraries are embedded by default, so there's no need to add them to the _lib_ folder of the _CIRCUITPY_ drive manually.
 
 Follow [this guide](/setup-circuitpython.md) to load the CircuitPython firmware on your Maker Pi RP2040.
+If you see _CIRCUITPY_ drive appears on your computer, it means CircuitPython firmware is already loaded on board and you are good to go! 
+
+The _code.py_ file on the _CIRCUITPY_ drive (of any new Maker Pi RP2040) is the demo program which comes with the board. You can open this file with any code editor to view or modify it. [Mu Editor](https://codewith.mu/) is highly recommended for coding the CircuitPython. Follow [Adafruit's guide](https://learn.adafruit.com/welcome-to-circuitpython/installing-mu-editor) to install the software.
+
+Besides modifying the demo program, you can also open one of the [CircuitPython examples here](/Examples/CircuitPython). You can copy the code and paste it in the _code.py_ file on your _CIRCUITPY_ drive. Save the file after making desired changes and the code will run as soon as the file is done saving.
+> Please wait until the file is successfully saved before resetting or unplugging your board!
+
+
 
 ### MicroPython
 
 Follow [this guide](https://www.raspberrypi.org/documentation/rp2040/getting-started/#getting-started-with-micropython) to load the MicroPython firmware on your Maker Pi RP2040.
+
+
 
 ## Reference:
 
