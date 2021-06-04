@@ -1,6 +1,7 @@
 # CYTRON MAKER PI RP2040
-Simplifying Robotics with Raspberry Pi RP2040
-![Maker Pi RP2040](/icon.png)
+Cytron Maker Pi RP2040 features the first microcontroller designed by Raspberry Pi - RP2040, embedded on a robot controller board. The board also comes with dual channel DC motor driver, 4 servo motor ports and 7 Grove I/O connectors, ready for your next DIY robot / motion control project. Now you can build robot, while trying out the new RP2040 chip.
+
+![Maker Pi RP2040](/maker-pi-rp2040-tagline.png)
 
 ##### Reference:
 
