@@ -8,6 +8,8 @@ CircuitPython firmware and a [demo program](/Examples/CircuitPython/Out-of-the-b
 - **On startup**:
    - play a melody tune
    - perform a sequential LED lighting (blue LEDs)
+- **Forever loop**: 
+   - RGB (Neopixel) LEDs perform color fading
 - **Press GP20 push button**:
    - light up all blue LEDs
    - run DC Motor 1 forward and DC Motor 2 backward, both at 50% speed
