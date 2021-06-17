@@ -19,7 +19,8 @@ CircuitPython firmware and a [demo program](/Examples/CircuitPython/Out-of-the-b
    - stop both DC Motor 1 & 2
    - move all Servo motors to 180 degree
 
-This is very useful for checking the basic functionalities of the board for the first time.
+Besides, Maker Pi RP2040 also comes with four DC motors quick test buttons. You may press the onboard M1A, M1B, M2A or M2B push buttons to run your motors without writing any code.
+All these are very useful for checking the basic functionalities of the board for the first time.
 
 ## Getting Started & Examples
 We provide some [example code](/Examples) in CircuitPython and MicroPython for your reference. Make sure the correct firmware is loaded on your Maker Pi RP2040 before you start coding with either languages.
