@@ -16,6 +16,7 @@ M2B = pwmio.PWMOut(PWM_M2B, frequency=50)
 motor1 = motor.DCMotor(M1A, M1B)
 motor2 = motor.DCMotor(M2A, M2B)
 
+# Throttle value must be between -1.0 and +1.0 or None (Free-Moving)
 print("***DC motor test***")
 
 print("\nForwards slow")
