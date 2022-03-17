@@ -84,11 +84,11 @@ servo_motors.append(servo.Servo(pwmio.PWMOut(board.GP14, duty_cycle=2**15, frequ
 servo_motors.append(servo.Servo(pwmio.PWMOut(board.GP15, duty_cycle=2**15, frequency=50)))
 
 # Initialize DC motors
-m1a = pwmio.PWMOut(board.GP8, frequency=50)
-m1b = pwmio.PWMOut(board.GP9, frequency=50)
+m1a = pwmio.PWMOut(board.GP8, frequency=10000)
+m1b = pwmio.PWMOut(board.GP9, frequency=10000)
 motor1 = motor.DCMotor(m1a, m1b)
-m2a = pwmio.PWMOut(board.GP10, frequency=50)
-m2b = pwmio.PWMOut(board.GP11, frequency=50)
+m2a = pwmio.PWMOut(board.GP10, frequency=10000)
+m2b = pwmio.PWMOut(board.GP11, frequency=10000)
 motor2 = motor.DCMotor(m2a, m2b)
 
 # -------------------------------------------------
