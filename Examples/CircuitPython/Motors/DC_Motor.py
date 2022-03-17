@@ -9,10 +9,10 @@ PWM_M2A = board.GP10
 PWM_M2B = board.GP11
 
 # DC motor setup
-M1A = pwmio.PWMOut(PWM_M1A, frequency=50)
-M1B = pwmio.PWMOut(PWM_M1B, frequency=50)
-M2A = pwmio.PWMOut(PWM_M2A, frequency=50)
-M2B = pwmio.PWMOut(PWM_M2B, frequency=50)
+M1A = pwmio.PWMOut(PWM_M1A, frequency=10000)
+M1B = pwmio.PWMOut(PWM_M1B, frequency=10000)
+M2A = pwmio.PWMOut(PWM_M2A, frequency=10000)
+M2B = pwmio.PWMOut(PWM_M2B, frequency=10000)
 motor1 = motor.DCMotor(M1A, M1B)
 motor2 = motor.DCMotor(M2A, M2B)
 
